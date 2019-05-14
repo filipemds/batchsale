@@ -1,0 +1,21 @@
+{
+  "topArea": [],
+  "menu": [
+    {
+      "label": "User Name"
+    },
+    {
+      "label": "Administration",
+      "icon": "commons-share",
+      "items": [
+        {
+          "label": "Batch",
+          "uri": "/batch"
+        },
+      ]
+    }
+  ],
+  "routes": [
+    "/batch"
+  ]
+}

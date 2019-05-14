@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "include": ["src"]
+}
