@@ -130,10 +130,6 @@ const Campaign = () => {
                 <Col span={7}>
                   <Form.Item label="Operation Normality"> </Form.Item>
                 </Col>
-                <Col span={2} style={{ textAlign: 'center', marginTop: 10 }}>
-                  <Checkbox checked="true" />
-                </Col>
-
               </Row>
               <Row gutter={16} style={{ marginTop: 0 }}>
                 <Col span={11}>
@@ -146,10 +142,7 @@ const Campaign = () => {
                 <Col span={7}>
                   <Form.Item label="Refractory Normality"> </Form.Item>
                 </Col>
-                <Col span={2} style={{ textAlign: 'center', marginTop: 10 }}>
-                  <Checkbox checked="true" />
-                </Col>
-
+     
               </Row>
 
               <Row gutter={16} style={{ marginTop: 0 }}>
@@ -308,9 +301,6 @@ const Campaign = () => {
                 <Col span={7}>
                   <Form.Item label="Operation Normality"> </Form.Item>
                 </Col>
-                <Col span={2} style={{ textAlign: 'center', marginTop: 10 }}>
-                  <Checkbox checked="true" />
-                </Col>
 
               </Row>
               <Row gutter={16} style={{ marginTop: 0 }}>
@@ -323,9 +313,6 @@ const Campaign = () => {
 
                 <Col span={7}>
                   <Form.Item label="Refractory Normality"> </Form.Item>
-                </Col>
-                <Col span={2} style={{ textAlign: 'center', marginTop: 10 }}>
-                  <Checkbox checked="true" />
                 </Col>
 
               </Row>

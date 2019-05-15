@@ -15,9 +15,14 @@ const routes = [
 ];
 
 export default () => (
-  <Router>
-    <Switch>
-      <Route path="/batch" exact component={Batch} />
-    </Switch>
-  </Router>
+    <Router>
+        <Switch>
+          <Route path="/" exact component={Batch} />
+          {routes
+            .filter(route => menuData.routes.includes(route.uri))
+            .map(route => (
+              <Route key={route.uri} path={route.uri} component={route.component} />
+            ))}
+        </Switch>
+    </Router>
 );
